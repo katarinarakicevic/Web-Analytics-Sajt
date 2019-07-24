@@ -1,0 +1,683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content=" Stranica vezana za primere u HTML-u, CSS-u, JavaScript-u."/>
+<meta name="keywords" content=" HTML,CSS, JavaScript."/>
+<meta name="language" content="Serbian, Srpski"/>
+<meta name="Robots" content="index, follow"/>
+<meta name="author" content="Katarina Rakićević"/> 
+
+
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+<script>
+function openWin() {
+    window.open("primer.html");
+}
+</script>
+<style>
+.combo {
+	width: 500px;
+	height: 500px;
+	border: 2px solid #000;
+}
+div#animateMe {
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #00C;
+	color: #FFF;
+	border-radius: 5px;
+	font-size:32px;
+	padding: 5px;
+}
+</style>
+
+<script>
+    $(document).ready(function(){
+$('#btnAnimate').click(function() {
+	$('#animateMe').animate({
+    	'left': '300px',
+        'top': '200px',
+        'border-width': '8px'
+    }, 1000);
+});
+$('#btnAnimateBack').click(function() {
+	$('#animateMe').animate({
+    	'left': '0',
+        'top': '0',
+        'border-width': '1px'
+    }, 1000);
+});
+    });
+</script>
+
+<title>Primeri</title>
+</head>
+<script src="responsive.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-git2.min.js"></script>
+<body>
+<script src="responsive.js"></script>
+<style type="text/css" media="all">
+@import "webcss.css";
+
+...
+</style> 
+<script src="responsive.js"></script>
+<div class="title_bar">
+
+
+<h1> WEB TEH</h1>
+<h2> Pravo mesto za sve informacije u vezi izrade sajtova</h2>
+
+
+
+</div>
+  
+
+</div>
+ 
+
+
+<script src="responsive.js"></script>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html"> <img src = "slike/home1.png"  width="30px"/></a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Web analitika <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Uvod u web analitiku.html">Šta je web analitika</a></li>
+          <li><a href="Oblasti web analitike.html"> Klučne oblasti web analitike</a></li>
+          <li><a href="SEO.html">Optimizacija sajta- SEO </a></li>
+          <li><a href="googlean.html"> Google analytics</a></li>
+          <li><a href=" primerianalitika.html"> Primeri web analitike </a> </li>
+        </ul>
+      </li>
+      <li><a href=" softveri.html">Alati web analitke</a></li>
+      <li><a href="webstranice.html">Izrada web stranica</a></li>
+      <li><a href="informacije.html">Informacije</a></li>
+       <li><a href=" onama.html"> O nama </a></li>
+        <li><a href=" primeri.html"> Primeri </a> </li>
+         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Prijava i registracija<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+     
+       <li><a href="prijava.html">Prijava</a></li>
+       <li><a href="registracija.html">Registracija</a></li>
+       <li><a href="izradasajtova.html">Prijava za izradu web sajtova</a></li>
+      </ul>
+      </li>
+        
+     
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+ <h2 align= "center"> Primer 1 </h2>
+ 
+
+<textarea readonly class="textarea" style="alignment-adjust:central" rows=" 9 " cols="100"> 
+<!DOCTYPE html>  
+<html> 
+<body> 
+
+<p id="demo"></p> 
+
+<script> 
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+</body>
+</html>
+
+</textarea>
+<br> 
+<br>
+
+
+<table align="center">
+ <tr> <td> <!DOCTYPE html>  
+<html> 
+<body> 
+
+<p id="demo"></p> 
+
+<script> 
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+</body>
+</html> </td></tr> </table>
+<br>
+<br>
+
+ <h2 align= "center"> Primer 2 </h2>
+
+<textarea readonly class="textarea" style="alignment-adjust:central" rows=" 9 " cols="100">
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Naslov</title>
+
+</head>
+
+<body bgcolor="FFFFFF">
+
+<center><img src="slike/Webanalytics.jpg" align="bottom"> </center>
+
+<hr>
+
+<a href="http://www.ftn.kg.ac.rs/index.php"> FTN </a>
+
+Link na sajt FTN-a u Čačku
+
+<h1>Ovo je heder </h1>
+
+<h2>Ovo je srednji heder </h2>
+
+Pošalji mejl na  <a href="mailto:rakicevic_katarina@yahoo.com">
+
+Katarina Rakićević</a>.
+
+<p> Ovo je novi paragraf! </p>
+
+<p> <b> Ovo je novi paragraf!</b> 
+
+<br> <b><i>Ovo je nova rečenica sa prelomom, sa podebljanim (bold) i iskošenim (italic) slovima.</i></b>
+</p>
+<hr>
+
+</body>
+
+</html>
+</textarea>
+<br>
+<br> 
+<br> 
+<br> 
+<table align="center">
+<tr> <td> <!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Naslov</title>
+
+</head>
+
+<body bgcolor="FFFFFF">
+
+<center><img src="slike/Webanalytics.jpg" align="bottom"> </center>
+
+<hr>
+
+<a href="http://www.ftn.kg.ac.rs/index.php"> FTN </a>
+
+Link na sajt FTN-a u Čačku
+
+<h1>Ovo je heder </h1>
+
+<h2>Ovo je srednji heder </h2>
+
+Pošalji mejl na  <a href="mailto:rakicevic_katarina@yahoo.com">
+
+Katarina Rakićević</a>.
+
+<p> Ovo je novi paragraf! </p>
+
+<p> <b> Ovo je novi paragraf!</b> 
+
+<br> <b><i>Ovo je nova rečenica sa prelomom, sa podebljanim (bold) i iskošenim (italic) slovima.</i></b>
+</p>
+<hr>
+
+</body>
+
+</html> </td> </tr> </table>
+ 
+
+<br> 
+<br> 
+<br> 
+<br> 
+
+ <h2 align= "center"> Primer 3 </h2>
+<textarea readonly class="textarea" style="alignment-adjust:central" rows=" 15 " cols="100">
+
+ <!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Naslov</title>
+<style type="text/css">
+
+.element {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+body,
+html {
+  height: 50%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+
+</head>
+<div class="element">   </div>
+</html>
+
+</textarea>
+
+
+<form>
+<input class=" button"type="button" value="Otvori prozor" onclick="openWin()">
+</form>
+
+
+
+<br>
+<br>
+ <h2 align= "center"> Primer 4 </h2>
+
+
+
+<textarea readonly class="textarea" style="alignment-adjust:central" rows=" 15 " cols="100">
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Naslov</title>
+<style type="text/css">
+
+html {
+  background-color: #000;
+}
+body{
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+}
+@keyframes spinsun {
+  0% { transform: rotate(0); }
+  100%   { transform: rotate(-360deg); }
+}
+
+@keyframes shadow {
+  0% { background-position: 130% 0%; }
+  33%{ background-position: 50% 0%; }
+  55% { background-position: 0% 0%; }
+  80%{ background-position: -50% 0%; }
+  100%{ background-position: -50% 0%; }
+}
+@keyframes orbitmercury {
+  0% { z-index:2; transform: rotateY(0); }
+  49% { z-index:2; }
+  50% { z-index:-2; }
+  99% { z-index:-2; }
+  100%   { z-index:2; transform: rotateY(360deg); }
+}
+
+@keyframes orbitvenus {
+  0% { z-index:3; transform: rotateY(0); }
+  49% { z-index:3; }
+  50% { z-index:-3; }
+  99% { z-index:-3; }
+  100%   { z-index:3; transform: rotateY(360deg); }
+}
+@keyframes orbitearth {
+  0% { z-index:4; transform: rotateY(0); opacity:1;}
+  49% {z-index:4;}
+  50% {z-index:-4;}
+  99% {z-index:-4;}
+  100%   { z-index:4; transform: rotateY(360deg);}
+}
+@keyframes orbitmars {
+  0% { z-index:5; transform: rotateY(0); }
+  49% { z-index:5; }
+  50% { z-index:-5; }
+  99% { z-index:-5; }
+  100%   { z-index:5; transform: rotateY(360deg); }
+}
+@keyframes orbitjupiter {
+  0% { z-index:6; transform: rotateY(270); }
+  49% { z-index:6; }
+  50% { z-index:-6; }
+  99% { z-index:-6; }
+  100%   { z-index:6; transform: rotateY(360deg); }
+}
+@keyframes orbitsaturn {
+  0% { z-index:7; transform: rotateY(270); }
+  49% { z-index:7; }
+  50% { z-index:-7; }
+  99% { z-index:-7; }
+  100%   { z-index:7; transform: rotateY(360deg); }
+}
+@keyframes anti-spin {
+  from { transform: rotateY(0); }
+  to   { transform: rotateY(-360deg); }
+}
+@keyframes anti-spin-rings {
+  from { transform: rotateY(0) rotateX(73deg); }
+  to   { transform: rotateY(-360deg) rotateX(73deg); }
+}
+
+/* scene wrapper */
+.wrapper{
+  position:relative;
+  margin: 0 auto;
+  display:block;
+  margin-top: 200px;
+  perspective: 1000px;
+    perspective-origin: 60% 50%;
+  transform: rotate(-10deg);
+  
+}
+.wrapper > div {
+  position: relative;
+  margin: 0 auto;
+  transform-style: preserve-3d;
+  height: 0px;
+}
+.sun {
+  width: 250px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  height: 125px !important;
+}
+.sun .star {
+  width: 250px;
+  height: 250px;
+  background: url(http://www.waynedunkley.com/img/solar_system/sun.png) no-repeat;
+  background-size: cover;
+  border-radius: 250px;
+  margin: 0 auto;
+  animation: spinsun 40s infinite linear;
+}
+.planet {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  animation-iteration-count: infinite;
+  overflow:hidden;
+}
+.shadow {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: transparent url(http://www.waynedunkley.com/img/solar_system/shadow.png) 0% 0% no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+.mercury {
+  position: absolute;
+  width: 400px;
+  z-index:2;
+  animation: orbitmercury 12s infinite linear;
+  top: -7.5px; /*half of planets height to keep orbits in line*/
+}
+.mercury .planet {
+  width:15px;
+  height:15px;
+  background-image: url(http://www.waynedunkley.com/img/solar_system/mercury.png);
+  animation: anti-spin 12s infinite linear;
+}
+.mercury .shadow {
+  animation: shadow 12s infinite linear;
+}
+.venus {
+  position: absolute;
+  width: 506px;
+  z-index:3;
+  animation: orbitvenus 15s infinite linear;
+  top: -19px;
+}
+.venus .planet {
+  width:38px;
+  height:38px;
+  background-image: url(http://www.waynedunkley.com/img/solar_system/venus.png);
+  animation: anti-spin 15s infinite linear;
+}
+.venus .shadow {
+  animation: shadow 15s infinite linear;
+}
+.earth {
+  position: absolute;
+  width: 610px;
+  z-index:4;
+  animation: orbitearth 20s infinite linear;
+  top: -20px;
+}
+.earth .planet {
+  width:40px;
+  height:40px;
+  background-image: url(http://www.waynedunkley.com/img/solar_system/earth.png?v=2);
+  animation: anti-spin 20s infinite linear;
+}
+.earth .shadow {
+  animation: shadow 20s infinite linear;
+}
+.mars {
+  position: absolute;
+  width: 706px;
+  z-index:5;
+  animation: orbitmars 30s infinite linear;
+  top: -11px;
+}
+.mars .planet {
+  width:22px;
+  height:22px;
+  background-image: url(http://www.waynedunkley.com/img/solar_system/mars.png);
+  animation: anti-spin 30s infinite linear;
+}
+.mars .shadow {
+  animation: shadow 30s infinite linear;
+}
+.jupiter {
+  position: absolute;
+  width: 1100px;
+  z-index:6;
+  animation: orbitjupiter 50s infinite linear;
+  top: -64px;
+}
+.jupiter .planet {
+  width:128px;
+  height:128px;
+  background-image: url(http://www.waynedunkley.com/img/solar_system/jupiter.png);
+  animation: anti-spin 50s infinite linear;
+}
+.jupiter .shadow {
+  animation: shadow 50s infinite linear;
+}
+</style>
+</head>
+<body>
+
+<ul class="wrapper">
+  <div class="sun">
+    <div class="star"></div>
+  </div>
+  <div class="mercury">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="venus">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="earth">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="mars">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="jupiter">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+</ul>
+</body>
+</html>
+
+
+</textarea>
+
+<form>
+<input class=" button"type="button" value="Otvori prozor" onclick="openWin()">
+</form>
+
+
+<br>
+<br>
+ <h2 align= "center"> Primer 5</h2>
+<textarea readonly class="textarea" style="alignment-adjust:central" rows=" 15 " cols="100">
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<style>
+.combo {
+	width: 500px;
+	height: 500px;
+	border: 2px solid #000;
+}
+div#animateMe {
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color:#C09
+	color: #FFF;
+	border-radius: 5px;
+	font-size:32px;
+	padding: 5px;
+}
+</style>
+
+<script>
+    $(document).ready(function(){
+$('#btnAnimate').click(function() {
+	$('#animateMe').animate({
+    	'left': '300px',
+        'top': '200px',
+        'border-width': '8px'
+    }, 1000);
+});
+$('#btnAnimateBack').click(function() {
+	$('#animateMe').animate({
+    	'left': '0',
+        'top': '0',
+        'border-width': '1px'
+    }, 1000);
+});
+    });
+</script>
+</head>
+
+<body>
+
+
+<div id="combo">    
+
+<h1>
+jQuery animacija!
+</h1>           	
+<div id="animateMe">
+    Pokreni me!
+</div>
+<br />
+<!-- One button for each fading command -->
+<input id="btnAnimate" value="Pokreni" type="button">
+<input id="btnAnimateBack" value="Vrati" type="button">
+                	
+</div> 
+</body>
+</html>
+
+</textarea>
+<br><br> <br>
+<div id="animateMe">
+    Pokreni me!
+</div>
+<br />
+<!-- One button for each fading command -->
+<input id="btnAnimate" value="Pokreni" type="button">
+<input id="btnAnimateBack" value="Vrati" type="button">
+                	
+</div> 
+
+
+
+
+
+
+
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+
+</body>
+</html>

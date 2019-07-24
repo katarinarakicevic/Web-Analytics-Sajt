@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title_bar {
+	border:1px #000 solid;
+	width:600;
+	padding: 20px;
+	background-color:#900;
+	color: #009;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px 0 20px 0;
+	text-shadow:0 2px 2px rgba(000,000,000, 0.7);
+}
+
+/* Podešavanja za H1 element unutar title_bar elementa;
+margine moraju biti 0, u suprotnom će DIV element sa H1 elementom imati veću visinu nego isti takav element sa običnim tekstom; */
+.title_bar h1 {
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.title_bar h2{
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	text-transform:none;
+	text-align: center;
+	}
+.form{
+	
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	text-transform:none;
+	text-align: right;
+}
+
+body {
+    background:#eee;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+p{
+	text-align: left;
+	color: #000;
+	font-weight: bolder;
+	font-size: 20px;
+	background:#FFC;
+}
+.center{
+	text-align: left;
+    position:relative;
+
+	}
+h1{
+	color: #900;
+	text-decoration: blink;
+	word-spacing: 10px;	
+	
+}
+h2{
+	color: #900;
+	text-decoration: blink;
+	word-spacing: 10px;	
+	
+}
+.home {
+	height:20px;
+	
+}
+a{
+	color:#606;
+		}
+	
+		.row {  
+		
+	
+		height:600px;
+	
+			
+			 }	
+		.footer-widget-title{
+			
+			position:relative;}
+			
+			.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+				
+				#text
+{
+    overflow-y:scroll;
+}
+			#spinner {
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  transform-style: preserve-3d;
+  text-align:center;
+}
+@keyframes spinner {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+#myCarousel {
+	width:1000px;
+	height:800px;
+	alignment-adjust:auto;
+}
+
+		
+		section{
+			width:100%;
+		}
+		  
+			
+	
+		
+		
+		#div{
+			width:50%;
+			margin-left:20px;
+		}
+		
+		.backspace { margin-left: -4px; }
+		
+	#p1{
+		background-color:#066;
+		color:#CCC;
+		margin-left:80px;
+		margin-right:80px;
+		
+	}
+	#p2{
+		background-color:#CCC;
+		color:#900;
+		margin-left:80px;
+		margin-right:80px;
+	}
+	#div{
+		background-color:#CFF;
+	}
+.container{
+	background-color:#069;
+	
+}
+#foo{
+	align:left;
+	background-color:#99c;
+}
+.img1{
+	
+	margin-left:300px;
+}
+
+table,th,td{
+			border-style:outset;
+			border- color:#000
+			
+		margin-left:80px;
+			}
+			th{background-color:#9FC;
+			color:#000;
+			}
+			#td{background-color:#9FC;
+			color:#000;
+			}
+			td{
+				background-color:#CCC;
+				color:#000;
+			}
+.textarea{
+	margin-left:300px;
+}
+
+.button{
+	margin-left:300px;
+	background-color:#C9C;
+	color:#000;
+}
+#div1{
+	background-color:#9FC;
+	width:100%;
+}
+#div2{
+	background-color:#000;
+	width:100%;
+}
+
+
+.ul-square{
+	background-color:#CCC;
+		color:#900;
+		margin-left:80px;
+		margin-right:80px;
+        font-size:18px
+		}
+.list-square
+{
+	background-color:#C9C;
+	color:#300;
+	margin-left:80px;
+	margin-right:80px;
+    font-size:18px
+}

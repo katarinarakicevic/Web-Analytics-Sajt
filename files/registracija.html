@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content=" Stranica vezana za registruciju na sajt WEB TEH.">
+<meta name="keywords" content="Registrujte se.">
+<meta name="language" content="Serbian, Srpski">
+<meta name="Robots" content="index, follow">
+<meta name="author" content="Katarina Rakićević">
+<title>Registracija</title>
+<link href="webcss.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>
+function myFunction() {
+    alert("The form was submitted");
+}
+</script>
+
+
+</head>
+
+<body>
+
+<div class="title_bar">
+<h1> WEB TEH </h1>
+<h2>  Pravo mesto za sve informacije u vezi izrade sajtova </h2>
+
+
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html"><img src = "slike/home1.png"  width="30px"/></a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Web analitika <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Uvod u web analitiku.html">Šta je web analitika</a></li>
+          <li><a href="Oblasti web analitike.html"> Klučne oblasti web analitike</a></li>
+          <li><a href="SEO.html">Optimizacija sajta- SEO </a></li>
+          <li><a href="googlean.html"> Google analytics</a></li>
+          <li><a href=" primerianalitika.html"> Primeri web analitike </a> </li>
+        </ul>
+      </li>
+      <li><a href=" softveri.html">Alati web analitke</a></li>
+      <li><a href="webstranice.html">Izrada web stranica</a></li>
+      <li><a href="informacije.html">Informacije</a></li>
+       <li><a href=" onama.html"> O nama </a></li>
+        <li><a href=" primeri.html"> Primeri </a> </li>
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Prijava i registracija<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+     
+       <li><a href="prijava.html">Prijava</a></li>
+       <li><a href="registracija.html">Registracija</a></li>
+       <li><a href="izradasajtova.html">Prijava za izradu web sajtova</a></li>
+      </ul>
+      </li>
+     
+    </ul>
+   
+  </div>
+</nav>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<div  id ="div1"class="container">
+  <h2> Registrujte se:</h2>
+  
+  <form name= "form2" action="registrovani.html" onsubmit="myFunction()">
+    <div class="form-group">
+      <label for="usr">Ime i prezime:</label>
+      <input type="text" class="form-control" id="usr" required>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Lozinka:</label>
+      <input type="password" class="form-control" id="pwd" required>
+    </div>
+    <div class="form-group">
+      <label for="pwd"> Ponovite lozinku:</label>
+      <input type="password" class="form-control" id="pwd" required>
+      </div>
+      <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="" required>
+      </div>
+      <button type="submit" class="btn btn-default">Registruj me</button>
+      </form>
+      </div>
+      <br>
+      <br>
+      <br>
+</body>
+</html>
