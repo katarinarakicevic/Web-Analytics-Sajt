@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 135 135" enable-background="new 0 0 135 135" xml:space="preserve" width="135" height="135">
+<defs>
+	<radialGradient id="dot_2_" cx="82.7475" cy="-86.1212" r="49" fx="82.7642" fy="-48.0298" gradientTransform="matrix(1.0102 0 0 1.0102 -83.5918 87)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#F14114"/>
+		<stop  offset="0.3877" style="stop-color:#EF4014"/>
+		<stop  offset="0.6004" style="stop-color:#E73E13"/>
+		<stop  offset="0.7707" style="stop-color:#D93A12"/>
+		<stop  offset="0.9177" style="stop-color:#C63510"/>
+		<stop  offset="1" style="stop-color:#B7310F"/>
+	</radialGradient>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1" y1="68" x2="-1" y2="-66">
+		<stop  offset="0" style="stop-color:#CCCCCC"/>
+		<stop  offset="0.3529" style="stop-color:#B4B4B4"/>
+		<stop  offset="1" style="stop-color:#808080"/>
+	</linearGradient>
+	<radialGradient id="highlight_3_" cx="67.2562" cy="110.2109" r="92.9069" fx="67.2747" fy="113.4473" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.8092" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.9327" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+	</radialGradient>	
+</defs>
+<symbol  id="red_dot_1_" viewBox="-50 -50 100 100">
+	<path id="dot_9_" fill="url(#dot_2_)" stroke="#9E2A0D" stroke-miterlimit="10" d="M49.5,0c0-27.3-22.2-49.5-49.5-49.5
+		S-49.5-27.3-49.5,0S-27.3,49.5,0,49.5S49.5,27.3,49.5,0z"/>
+	<polygon display="none" fill="none" points="-50,50 50,50 50,-50 -50,-50 	"/>
+</symbol>
+<symbol  id="round_button" viewBox="-68 -67 135 135">
+	<g id="shadow_7_">
+		<path fill="#DFDFDF" d="M66.5,0c0-36.7-29.8-66.5-66.5-66.5S-66.5-36.7-66.5,0S-36.7,66.5,0,66.5S66.5,36.7,66.5,0z"/>
+		<path fill="none" stroke="#DFDFDF" stroke-miterlimit="10" d="M66.5,0c0-36.7-29.8-66.5-66.5-66.5S-66.5-36.7-66.5,0
+			S-36.7,66.5,0,66.5S66.5,36.7,66.5,0z"/>
+	</g>
+	<g id="border_2_">
+		<path fill="#FFFFFF" d="M65.5,1c0-36.7-29.8-66.5-66.5-66.5S-67.5-35.7-67.5,1S-37.7,67.5-1,67.5S65.5,37.7,65.5,1z"/>
+		<path fill="none" stroke="url(#SVGID_1_)" stroke-miterlimit="10" d="M65.5,1c0-36.7-29.8-66.5-66.5-66.5S-67.5-35.7-67.5,1
+			S-37.7,67.5-1,67.5S65.5,37.7,65.5,1z"/>
+	</g>
+	<polygon display="none" fill="none" points="-68,68 67,68 67,-67 -68,-67 	"/>
+</symbol>
+<g id="remove_button">
+		<use xlink:href="#round_button"  width="135" height="135" x="-68" y="-67" transform="matrix(1 0 0 -1 68 68)" overflow="visible"/>
+	<use xlink:href="#red_dot_1_"  width="100" height="100" x="-50" y="-50" transform="matrix(1 0 0 -1 67 67)" overflow="visible"/>
+	<path id="x_1_" fill="#FFFFFF" d="M89.2,82.1c1.9,1.9,1.9,5.1,0,7.1l0,0c-1.9,1.9-5.1,1.9-7.1,0L68.4,75.4c-0.2-0.2-0.5-0.2-0.7,0
+		L53.9,89.2c-1.9,1.9-5.1,1.9-7.1,0h0c-1.9-1.9-1.9-5.1,0-7.1l13.8-13.8c0.2-0.2,0.2-0.5,0-0.7L46.8,53.9c-1.9-1.9-1.9-5.1,0-7.1
+		l0,0c1.9-1.9,5.1-1.9,7.1,0l13.8,13.8c0.2,0.2,0.5,0.2,0.7,0l13.8-13.8c1.9-1.9,5.1-1.9,7.1,0v0c1.9,1.9,1.9,5.1,0,7.1L75.4,67.6
+		c-0.2,0.2-0.2,0.5,0,0.7L89.2,82.1z"/>
+	<circle id="highlight_8_" fill="url(#highlight_3_)" cx="67" cy="67" r="49"/>
+</g>
+</svg>
